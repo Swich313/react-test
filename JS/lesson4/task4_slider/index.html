@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4 Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Automatic Slider</h1>
+    <div class="flex-wrapper">
+        <div class="slider-wrapper">
+            <div class="slide active">
+                <img src="img_1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img_2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img_3.jpg" alt="">
+            </div>
+            <div id="btn-prev"></div>
+            <div id="btn-next"></div>
+        </div>
+    </div>
+    <div class="dots-wrapper">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="btn-wrapper">
+        <div class="btn" id="auto-prev">&#8810;</div> <div class="btn" id="stop">STOP
+        </div>
+        <div class="btn" id="auto-next">&#8811;</div>
+
+    </div>
+
+    <script src="slider.js"></script>
+</body>
+
+</html>

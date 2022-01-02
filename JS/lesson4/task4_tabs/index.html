@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tast4 Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>TABS</h1>
+<body>
+    <div class="tabs-block-wrapper">
+        <div id="tabs">
+            <div class="tab-btn active" data-btn="1">1</div>
+            <div class="tab-btn" data-btn="2">2</div>
+            <div class="tab-btn" data-btn="3">3</div>
+        </div>
+        <div id="contents">
+            <div class="content active" data-content="1">Some content1</div>
+            <div class="content" data-content="2">Some content2</div>
+            <div class="content" data-content="3">
+               <div class="tab-block-wrapper1">
+                <div id="tabs1">
+                    <div class="tab-btn1 active" data-subbtn="1">a</div>
+                    <div class="tab-btn1" data-subbtn="2">b</div>
+                </div>
+                <div id="contents1">
+                    <div class="content1 active" data-subcontent="1">Some content3</div>
+                    <div class="content1" data-subcontent="2">Some content4</div>
+                </div>
+               </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="tab.js"></script>
+</body>
+</html>

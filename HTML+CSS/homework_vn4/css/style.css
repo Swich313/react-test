@@ -1,0 +1,284 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom right, #4ebefe, #378fd9 );
+    color: white;
+    padding-top: 58px;
+    padding-bottom: 148px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    width:98px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 37px; 
+    width: 560px;  
+    
+}
+h1 span{
+    font-size: 59px;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 400px;
+    margin-top: 45px;
+    line-height: 1.68;
+}
+.button{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 222px;
+    padding: 21px 0;
+    background-color: #ffd429;
+    margin-top: 45px;
+    display: block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic{
+    width: 517px;
+    margin-top: 70px;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(65, 36, 36, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #dab523;
+    transition: all 0.5s ease;
+}
+.future{
+    padding-top: 115px;
+    padding-bottom: 125px;
+}
+.section_header{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.wrapper h2{
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 35px;
+
+}
+.space{
+    margin-top: 75px;
+    width: 292px;
+    text-align: center;
+  }
+.plans{
+    margin-top: 23px;
+    line-height: 1.46;
+}
+.trip{
+    margin-top: 70px;
+}
+.form{
+    background-color: #ecf2f8;
+    padding-top: 105px;
+    padding-bottom: 102px;
+    }
+   
+.form h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    }
+.form form{
+    width: 342px;
+    margin: 63px auto 0;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 15px;
+        height: 47px;
+        border: 1px solid #bbb;
+        border-radius: 4px;
+    }
+    input::-webkit-input-placeholder{
+        padding-left: 25px;
+        font-size: 15px;
+    }
+    input[type="submit"]{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffd429;
+    }
+    input[type="submit"]:hover{
+        background-color: #dab523;
+        transition: all 0.5s ease;
+    }
+    footer{
+        background-color: #164d7a;
+    }
+    footer p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        line-height: 140px;
+        margin: 0;
+    }
+    @media screen and (max-width: 1400px) {
+        
+    }
+
+    @media screen and (max-width: 1200px) {
+       .logo{
+           margin-left: 45px;
+       }
+        .wrapper{
+            justify-content:space-around;
+        }
+        .container{
+            width: 960px;
+        }
+        h1 span{
+            font-size: 52px;
+        }
+        h1{
+            margin-top: 100px;
+            font-size: 30px;
+            width:370px;
+        }
+         .text{
+            width:370px;
+            margin-top: 40px;
+        }
+        .pic{
+            width: 400px
+        }
+        
+    }
+
+    @media screen and (max-width: 992px) {
+        .container{
+            width: 720px;
+            }
+            .wrapper{
+                flex-direction: column;
+            }
+            h1 span{
+                font-size: 52px;
+            }
+            h1{
+                margin-top: 100px;
+                font-size: 30px;
+                text-align: center;
+            }
+             .text{
+                margin-top: 40px;
+                text-align: center;
+
+            }
+            .pic{
+                width: 470px
+            }
+            .start p, .start h1, .button{
+                width:520px
+            }
+            header{
+                padding-bottom: 108px;
+            }
+            
+        }
+
+    @media screen and (max-width: 768px) {
+        .container{
+            width: 540px;
+    }
+        .wrapper{
+            flex-direction: column;
+    }
+    h1 span{
+        font-size: 52px;
+    }
+    h1{
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+    }
+     .text{
+        margin-top: 40px;
+        text-align: center;
+
+    }
+    .pic{
+        width: 470px
+    }
+    .start p, .start h1, .button{
+        width:500px;
+    }
+    header{
+        padding-bottom: 108px;
+    }
+}
+
+    @media screen and (max-width: 576px) {
+        .container{
+            width: 300px;
+    }
+    header{
+        padding-top: 28px;
+        padding-bottom: 58px;
+    }
+    .wrapper{
+        flex-direction: column;
+}
+    h1 span{
+        font-size: 45px;
+}
+    h1{
+        margin-top: 100px;
+        font-size: 25px;
+        text-align: center;
+}
+    .text{
+        margin-top: 40px;
+        text-align: center;
+
+}
+    .pic{
+    width: 290px
+}
+.start p, .start h1, .button{
+    width:290px;
+}
+header{
+    padding-bottom: 108px;
+}
+h1{
+    margin-top: 50px;
+}
+.form{
+    padding-top: 50px;
+    padding-bottom: 45px;
+    }
+.form form{
+    width: 290px;
+    margin: 33px auto 0;
+    }
+    footer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer p{
+       line-height: 1;
+      }
+}

@@ -1,0 +1,42 @@
+body{
+   box-sizing: border-box;
+   }
+   img{
+       width: 150px;
+   }
+h1{
+    color: red;
+}
+.header{
+    color: white;
+    background-color: blue;
+    width: 100px;
+    margin-bottom: 100px;
+    padding: 0;
+}
+span{
+    color: red;
+}
+.box1{
+    background-color: #008001;
+    color: white;
+    padding: 5px;
+}
+a{
+    color: #00E;
+}
+.box2{
+    padding: 50px;
+
+}
+.text{
+    padding-left: 100px;
+}
+ul{
+    margin: 30px 0;
+}
+ul li {
+    font-size: 1.85em;
+    border: 1px solid black;
+    /* margin: 10px 0; */
+}
